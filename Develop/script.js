@@ -20,6 +20,7 @@ $(function () {
   // attribute of each time-block be used to do this?
   //
   $('#currentDay').html(dayjs().format('dddd, MMMM D, YYYY h:mm A'));
+  console.log(dayjs($h))
 });
 
 
