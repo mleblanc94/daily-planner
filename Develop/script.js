@@ -39,6 +39,8 @@ $(function () {
       }
     }
   }
+//Runs this function every 10 seconds in order to check if the colors should be updated
+  setInterval(checkTime, 10000)
 
   //Checks the time when the application is loaded and applies colors to the different sections from there
   checkTime();
