@@ -6,7 +6,7 @@ A daily planner for the user to organize tasks for their day.
 - I was motivated to create this daily planner application to work on my developer skills particularly with DOM manipulation, working with outside libraries such as dayjs, functions, loops, localstorage usage, objects, setting timeouts, etc. This is also a great way for me to keep track of my daily tasks!
 - I created this project to work on my javascript skills particularly with manipulating the DOM, using and manipulating objects, working with outside libraries, using the local storage, setting timeouts, and using functions.
 - By creating this application, I solved the problem of learning an application works that takes a users input for daily tasks and saves it. It also helped me to work with a system where the color of the boxes changes depending on what time of the day it is.
-- Through doing this activity, I learned more about using javascript in real life applications. Particularly, using outside libraries in order to get updated information to be displayed on the screen. It also helps to get the data and manipulate it as I want to to work with my page.
+- Through doing this activity, I learned more about using javascript in real life applications. Particularly, using outside libraries in order to get updated information to be displayed on the screen. It also helps to get the data and manipulate it as I want to to work with my page. I also learned more about optimizing my code to be more efficient and save a lot of lines of extra code.
 
 
 ## Installation
