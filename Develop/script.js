@@ -1,16 +1,8 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
 $(function () {
+  //Placing the dayjs library into a variable to be able to use more easily
   let dayData = dayjs()
-  // TODO: Add a listener for click events on the save button. This code should
-  // use the id in the containing time-block as a key to save the user input in
-  // local storage. HINT: What does `this` reference in the click listener
-  // function? How can DOM traversal be used to get the "hour-x" id of the
-  // time-block containing the button that was clicked? How might the id be
-  // useful when saving the description in local storage?
-
  
+
  let btns = $('.saveBtn')
  btns.each(function() {
   let id = $(this).data().id
@@ -24,17 +16,6 @@ $(function () {
   let parsedUserData = JSON.parse(storedUserData)
     $(`#hour-${id} textarea`).val(parsedUserData);
  })
- 
-//A test used to see if my checkTime function is working correctly to remove classes that are no longer needed
-
-//  let currentHour = 9;
-//  setInterval(() => {
-//   console.log(currentHour);
-//   currentHour++;
-//   if (currentHour > 15) {
-//     currentHour = 9;
-//   }
-//  }, 1000)
 
   function checkTime() {
     let currentHour = dayData.hour();
@@ -57,9 +38,6 @@ $(function () {
 
 
 
-  // TODO: Add code to get any user input that was saved in localStorage and set
-  // the values of the corresponding textarea elements. HINT: How can the id
-  // attribute of each time-block be used to do this?
   //
   checkTime();
 
